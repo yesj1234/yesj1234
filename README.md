@@ -1,4 +1,4 @@
-# 👋 Hello, I'm [Your Name] – Flutter Developer
+# 👋 Hello, I'm Yang seung jun – Flutter Developer
 
 🚀 Passionate about building clean, scalable mobile apps  
 💡 Focused on state management, clean architecture, and real-world UX  
@@ -27,24 +27,21 @@ A daily farming log with multi-calendar views (day/week/month), comment system, 
 - 📆 TableCalendar custom integration
 - 🛠 Riverpod for state management
 
-### 🛠 [Flutter Widget Lab](https://github.com/yourusername/flutter-widget-lab)
-
-A collection of reusable Flutter widgets and layout builders, including `ImageTileBuilder`, `SingleImageBuilder`, and more.
-
 ---
 
 ## 📈 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_title=true)
-[![GitHub Streak](https://streak-stats.demolab.com?user=yourusername&theme=tokyonight)](https://git.io/streak-stats)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yesj1234&show_icons=true&theme=tokyonight&hide_title=true)
+[![GitHub Streak](https://streak-stats.demolab.com?user=yesj1234&theme=tokyonight)](https://git.io/streak-stats)
 
 ---
 
 ## 📫 Let's Connect
 
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🌐 [Portfolio](https://yourportfolio.com)
-- ✉️ Email: yourname@email.com
+<!-- - 💼 [LinkedIn](https://linkedin.com/in/yourprofile) -->
+
+- 🌐 [Blog](https://yesj1234.github.io/)
+- ✉️ Email: juesc007@gmail.com
 
 ---
 
