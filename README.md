@@ -1,3 +1,10 @@
+<a href="https://yesj1234.github.io">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+    <img alt="profile.yaml — Flutter 앱과 서버를 함께 만드는 개발자 jack" src="assets/profile-light.svg" width="720">
+  </picture>
+</a>
+
 ### 안녕하세요, 양승준(jack)이에요
 
 Flutter 로 앱을 만들고, 그 앱이 쓰는 서버(Django·FastAPI)까지 함께 만들어요.
