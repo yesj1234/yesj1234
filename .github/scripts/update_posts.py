@@ -8,7 +8,8 @@ from pathlib import Path
 
 FEED = "https://yesj1234.github.io/rss.xml"
 COUNT = 5
-README = Path(__file__).resolve().parents[2] / "README.md"
+ROOT = Path(__file__).resolve().parents[2]
+READMES = [ROOT / "README.md", ROOT / "README.en.md"]
 # RSS 는 KST 자정을 UTC 로 적어 하루 앞 날짜가 된다. 블로그에 보이는 날짜와 맞추려고 KST 로 되돌린다
 KST = timezone(timedelta(hours=9))
 
@@ -25,6 +26,7 @@ items.sort(key=lambda entry: (entry[0], entry[1]), reverse=True)
 lines = [f"- [{title}]({link}) — {published:%Y-%m-%d}" for published, title, link in items[:COUNT]]
 block = "<!-- posts:start -->\n" + "\n".join(lines) + "\n<!-- posts:end -->"
 
-text = README.read_text(encoding="utf-8")
-updated = re.sub(r"<!-- posts:start -->.*?<!-- posts:end -->", block, text, flags=re.S)
-README.write_text(updated, encoding="utf-8")
+for readme in READMES:
+    text = readme.read_text(encoding="utf-8")
+    updated = re.sub(r"<!-- posts:start -->.*?<!-- posts:end -->", block, text, flags=re.S)
+    readme.write_text(updated, encoding="utf-8")

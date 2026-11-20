@@ -5,6 +5,8 @@
   </picture>
 </a>
 
+<samp>한국어 · <a href="https://github.com/yesj1234/yesj1234/blob/main/README.en.md">English</a></samp>
+
 ### 안녕하세요, 양승준(jack)이에요
 
 Flutter 로 앱을 만들고, 그 앱이 쓰는 서버(Django·FastAPI)까지 함께 만들어요.
