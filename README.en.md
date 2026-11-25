@@ -20,7 +20,7 @@ My work code is private, so I write about what I build on my blog → **[yesj123
 - **[A zero crash count was not a measurement](https://yesj1234.github.io/posts/ios_crashlytics_zero_crashes)** — After moving iOS dependencies to Swift Package Manager, Crashlytics reported zero iOS crashes for 21 builds. I traced it to a dSYM upload step that failed silently, and made the build stop when the upload fails.
 - **[270 ways to debounce a button](https://yesj1234.github.io/posts/bloc_concurrency_refactor)** — Replaced about 270 hand-rolled ways of handling overlapping BLoC events with declarative `bloc_concurrency` transformers.
 - **[Starting a Live Activity is not the same as updating one](https://yesj1234.github.io/posts/live_activity_push_to_start)** — Built both the app and the server side, on my own, so the server keeps a Live Activity current while the app is asleep.
-- **[Rules are harder to get read than to write](https://yesj1234.github.io/posts/ai_agent_harness)** — A 12 KB rule budget and a PR review skill for AI agents that cut review cost by 52–62%.
+- **[Building an AI reviewer, then giving it a blind test](https://yesj1234.github.io/posts/ai_pr_review_skill)** — A PR review skill that covers PRs our review bot skipped; verified with a blind test (zero false positives) and made 52–62% cheaper to run.
 - **[Why our Flutter app is split into six packages](https://yesj1234.github.io/posts/flutter_architecture_1_monorepo)** — A five-part series measuring a Melos monorepo with Clean Architecture and BLoC after a year of building on it.
 
 #### Recent posts (in Korean)
